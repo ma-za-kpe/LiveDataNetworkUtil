@@ -1,5 +1,5 @@
 # LiveDataNetworkUtil
-A simple Android Live data network library.
+A simple Android Livedata network library.
 
 #### [View Releases and Changelogs](https://github.com/ma-za-kpe/LiveDataNetworkUtil/releases)
 
@@ -33,5 +33,18 @@ Step 2: Add the dependency
 ```
 
 # Example
+
+```
+   private fun handleNetwork() {
+        NetworkUtil.getNetworkLiveData(applicationContext).observe(this, { isConnected ->
+            if (!isConnected) {
+                Toast.makeText(this, "no internet", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "internet available", Toast.LENGTH_SHORT).show()
+            }
+        })
+    }
+```
+- An implementation from the example project can be found [here](https://github.com/ma-za-kpe/LiveDataNetworkUtil/blob/master/app/src/main/java/com/maku/networkutilexample/MainActivity.kt)
 
 
