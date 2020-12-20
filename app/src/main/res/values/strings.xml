@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NetworkUtilExample</string>
+    <string name="text_no_connectivity">No Internet Connection, please connect …</string>
+    <string name="text_connectivity">Back Online</string>
 </resources>

@@ -13,4 +13,17 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="StatusView">
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="StatusTextView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
 </resources>
