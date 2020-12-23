@@ -48,5 +48,5 @@ Step 2: Add the dependency
     }
 ```
 - An implementation from the example project can be found [here](https://github.com/ma-za-kpe/LiveDataNetworkUtil/blob/master/app/src/main/java/com/maku/networkutilexample/MainActivity.kt)
-
+## Article can be found here [Network Util](https://makpalyy.medium.com/how-to-use-the-livedatanetworkutil-library-36ab5de19022)
 
